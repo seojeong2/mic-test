@@ -7,7 +7,8 @@ public class AudioSpeaker {
     public static void main(String[] args) {
         try {
             // 재생할 WAV 파일 경로 설정
-            File wavFile = new File("/Users/seojeong/Desktop/mic_test/wav/recorded_audio.wav"); // WAV 파일 경로를 수정하세요
+//            File wavFile = new File("/Users/seojeong/Desktop/sample_audio/sample/75_male_08231.wav"); // WAV 파일 경로를 수정하세요
+            File wavFile = new File("/Users/seojeong/Downloads/demo/wav/sss_classifi_audio.wav"); // WAV 파일 경로를 수정하세요
 
             // 오디오 입력 스트림 열기
             AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(wavFile);
